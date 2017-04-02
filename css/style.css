@@ -1,0 +1,138 @@
+/********* LOGIN ***************/
+.login{
+	background-image:url('../images/login.jpg');
+	background-size: 100%;
+	background-position: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+
+.login .login-form{
+	border: 1px solid gray;
+	padding:20px;
+	margin-top: 40px;
+	width: 50%;
+	border-radius: 5px;
+	background-color: white;
+}
+
+
+.login .login-form--center{
+
+	position: absolute;
+	left:50%;
+	transform: translateX(-50%);
+}
+
+
+/******** POSTS *************/
+.posts{
+	background-color: #eaeaea;
+	float: left;
+	width: 100%;
+}
+
+.menu-header{
+	width: 100%;
+	background-color: white;
+	padding: 20px 10px;
+	margin: 0;
+}
+
+.menu-header__link{
+	display: inline-block;
+	float: right;
+	color:black;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+.menu-header__link a{
+	color:black;
+	text-decoration: none;
+
+}
+
+.menu-header__link a:hover{
+
+	color:#79d7e0;
+}
+
+.slider{
+	height: 350px;
+	margin-bottom: 60px;
+}
+
+.slider-img{
+	background-size: 100%;
+	background-position: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.message{
+	display: inline-block;
+	float: left;
+	font-size: 8px;
+}
+
+.link-logout{
+	display: inline-block;
+	float: right;
+}
+
+.posts .posts-items{
+	margin-top:30px;
+	margin-bottom:60px;
+}
+
+.posts-items__title{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.posts .post-item{
+	position: relative;
+	padding:20px;
+	border-radius: 6px;
+	background-color: rgba(255,255,255,0.6);
+	min-height: 240px;
+}
+
+
+.link-item{
+	position: absolute;
+	bottom:10px;
+}
+
+
+/***********POST VIEW***********/
+
+.parallax { 
+    /* The image used */
+   
+
+    /* Set a specific height */
+    height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax .title{
+	text-align: center;
+	color:white;
+	font-size: 25px;
+	padding-top: 10%;
+}
+
+
+.post-textarea{
+	margin-top:40px;
+}
