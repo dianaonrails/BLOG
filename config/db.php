@@ -12,6 +12,6 @@
  * DB_PASS: the password of the above user
  */
 define("DB_HOST", "localhost");
-define("DB_NAME", "posts_db");
-define("DB_USER", "root");
-define("DB_PASS", "root");
+define("DB_NAME", "blogdacasa");
+define("DB_USER", "adminlFFGINb");
+define("DB_PASS", "SLgrZwjyIuA5");
